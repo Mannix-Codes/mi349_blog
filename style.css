@@ -1,0 +1,97 @@
+
+p {
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+body {
+    padding : 20px;
+    background-color: rgb(14, 21, 94);
+}
+
+a {
+    color: rgb(183, 255, 0);
+    padding : 10px;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    padding: 5px;
+}
+
+time {
+    font-style: italic;
+    padding: 5px;
+}
+
+header h1, h2{
+    color: white;
+}
+
+article {
+    border : 3px solid black;
+}
+
+.header {
+    text-align: center;
+    position : sticky;
+    top: 0;
+    background-color: rgb(14, 21, 94);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.poster {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    height: auto;
+    border: 2px solid #ccc;
+}
+.chart {
+    display: block;
+    margin: 20px auto;
+    max-width: 70%;
+    height: auto;
+    border: 2px solid #ccc;
+}
+table th, tr, td
+{
+    border: 3px solid black;
+    text-align: left;
+}
+table {
+    border-collapse: collapse;
+}
+
+#entertainment {
+    background-color: #c3d780;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#business {
+    background-color: #8c8ada;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+ 
+form[netlify] {
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 15px;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    color : black;
+}
